@@ -37,7 +37,7 @@ server <- function(input, output, session) {
 
   # Define server logic required to draw a histogram
   output$lineRevBal <- renderPlotly({
-    ggplotly(createAvgRevTimeSeries(reactiveRevBal(), input$selectArea)) %>%
+    ggplotly(createTimeSeries(reactiveRevBal(), input$selectArea)) %>%
       config(displayModeBar = F) %>%
       layout(legend = list(orientation = "h", x = 0, y = -0.2))
   })

@@ -1,6 +1,5 @@
-createAvgRevTimeSeries <- function(dfRevenueBalance,inputArea){
-
-ggplot(dfRevenueBalance, aes(x=year,y=average_revenue_balance,color=area_name)) + 
+createTimeSeries <- function(df,inputArea){
+  ggplot(df, aes(x=year,y=cohort,color=institution_group)) +
   geom_line(size = 1.2) +       
   theme_classic() +
   theme(
