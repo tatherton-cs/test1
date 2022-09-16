@@ -558,7 +558,6 @@
     "memoise": {
       "Package": "memoise",
       "Version": "2.0.1",
-<<<<<<< HEAD
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "e2817ccf4a065c5d9d7f2cfbe7c1d78c",
@@ -570,8 +569,6 @@
     "mgcv": {
       "Package": "mgcv",
       "Version": "1.8-40",
-=======
->>>>>>> 8f02afe19dfd54805c104d08fb68467740545eb3
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "e2817ccf4a065c5d9d7f2cfbe7c1d78c",
@@ -604,13 +601,9 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "4a0b3a68f846cb999ff0e8e519524fbb",
-<<<<<<< HEAD
       "Requirements": [
         "lattice"
       ]
-=======
-      "Requirements": []
->>>>>>> 8f02afe19dfd54805c104d08fb68467740545eb3
     },
     "openssl": {
       "Package": "openssl",
