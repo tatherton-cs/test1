@@ -409,7 +409,6 @@
         "glue",
         "gtable",
         "isoband",
-        "mgcv",
         "rlang",
         "scales",
         "tibble",
@@ -529,14 +528,6 @@
         "rlang"
       ]
     },
-    "lattice": {
-      "Package": "lattice",
-      "Version": "0.20-45",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "b64cdbb2b340437c4ee047a1f4c4377b",
-      "Requirements": []
-    },
     "lazyeval": {
       "Package": "lazyeval",
       "Version": "0.2.2",
@@ -567,6 +558,7 @@
     "memoise": {
       "Package": "memoise",
       "Version": "2.0.1",
+<<<<<<< HEAD
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "e2817ccf4a065c5d9d7f2cfbe7c1d78c",
@@ -578,12 +570,14 @@
     "mgcv": {
       "Package": "mgcv",
       "Version": "1.8-40",
+=======
+>>>>>>> 8f02afe19dfd54805c104d08fb68467740545eb3
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "c6b2fdb18cf68ab613bd564363e1ba0d",
+      "Hash": "e2817ccf4a065c5d9d7f2cfbe7c1d78c",
       "Requirements": [
-        "Matrix",
-        "nlme"
+        "cachem",
+        "rlang"
       ]
     },
     "mime": {
@@ -610,9 +604,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "4a0b3a68f846cb999ff0e8e519524fbb",
+<<<<<<< HEAD
       "Requirements": [
         "lattice"
       ]
+=======
+      "Requirements": []
+>>>>>>> 8f02afe19dfd54805c104d08fb68467740545eb3
     },
     "openssl": {
       "Package": "openssl",
