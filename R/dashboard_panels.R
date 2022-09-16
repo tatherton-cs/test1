@@ -92,8 +92,8 @@ dashboard_panel <- function() {
             column(
               width = 6,
               selectizeInput("selectPhase",
-                    "Select a school phase",
-                    choices = choicesPhase
+                             "Select an indicator",
+                             choices = choicesPhase
                     )),
             column(
               width = 6,
