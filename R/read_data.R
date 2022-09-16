@@ -22,3 +22,4 @@ funcReadData <- function(file){
                                geographic_level=='Regional' ~ region_name,
                                TRUE ~ la_name))
   return(dfData)
+}
